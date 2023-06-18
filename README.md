@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 
 呼び出したい関数は下記の形式で作成します。
 
-- docscting
+- docstring
 
     ChatGPTに事前に教える関数に関する情報をJSON形式で記入します。
     記載方法は`demo.py`を参考にしてください。
