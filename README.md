@@ -4,12 +4,18 @@
 
 ChatGPT API function callingに対応したラッパークラスです。
 
-## API Key
+## 準備
 
 .envにOpenAI API KEYを指定してください。
 
 ```
 OPENAI_API_KEY=sk-.....
+```
+
+また、依存ライブラリをインストールしておいてください。
+
+```bash
+$ pip install -r requirements.txt
 ```
 
 ## クラスの使い方
