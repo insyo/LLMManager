@@ -4,6 +4,11 @@
 
 ChatGPT API function callingに対応したラッパークラスです。
 
+簡単にFunction callingを使えるようにしました。
+
+- ChatGPTに渡す関数定義は、関数のdocstringに書くだけで良い
+- Function CallingがChatGPTから要求される間は自動的にループ
+
 ## 準備
 
 .envにOpenAI API KEYを指定してください。
